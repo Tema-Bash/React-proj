@@ -3,6 +3,7 @@ import './App.css';
 import directionsWebIcon from './images/directions-web.svg'
 import directionsPcIcon from './images/directions-PC.svg'
 import directionsMobileIcon from './images/directions-mobile.svg'
+
 import Navbar from './components/Navbar/Navbar';
 import Lead from './components/Lead/Lead';
 import Directions from './components/Directions/Directions';
@@ -14,9 +15,9 @@ const navbarLinks=[
 ]
 
 const directionsList=[
-  {imageSrc: "#", title: "Web приложения"},
-  {imageSrc: "#", title: "Десктоп приложения "},
-  {imageSrc: "#", title: "Мобильные приложения"},
+  {imageSrc: "directionsWebIcon", title: "Web приложения"},
+  {imageSrc: "directionsPcIcon", title: "Десктоп приложения "},
+  {imageSrc: "directionsMobileIcon", title: "Мобильные приложения"},
 ]
 
 function App() {
