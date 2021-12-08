@@ -10,7 +10,6 @@ const Directions = ({directionsList}) => {
       {directionsList.map((item) => {
         return (
         <li className="directions__card" key={item.title}>
-          {console.log(item.imageSrc)}
             <img className="directions__icon" src={Object.values(item.imageSrc)} alt={item.alt}/>
             <h3 className="directions__description">{item.title}</h3>
         </li>

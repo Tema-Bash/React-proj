@@ -26,6 +26,7 @@
   letter-spacing: 0em;
   text-align: center;
   margin: 16px 0 0 0;
+  white-space: pre-line;
 }
 
 .lead__button {
@@ -42,6 +43,7 @@
   background: rgba(255, 255, 255, 0.15);
   border-radius: 1000px;
   border: 0px;
+  transition: 0.3s;
 }
 
 .lead__button:hover {

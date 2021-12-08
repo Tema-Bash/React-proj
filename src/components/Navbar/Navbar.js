@@ -9,7 +9,7 @@ const Navbar = ({navbarLinks}) => {
         {navbarLinks.map((item) => {
           return (
           <li className="navbar__item" key={item.title}>
-            <a className="navbar__link" href={item.url}>{item.title}</a>
+            <a className="navbar__link" href={item.url}>{item.title}</a>   {/**/}
           </li>
           );
         })}
