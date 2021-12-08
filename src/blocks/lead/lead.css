@@ -1,0 +1,9 @@
+.lead {
+  color: white;
+  font-family: 'Rubik', sans-serif;
+  margin: 200px auto 0;
+  max-width: 618px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

@@ -1,0 +1,50 @@
+.lead {
+  color: white;
+  font-family: 'Rubik', sans-serif;
+  margin: 200px auto 0;
+  max-width: 618px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.lead__title {
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 72px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin: 0;
+}
+
+.lead__subtitle {
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin: 16px 0 0 0;
+}
+
+.lead__button {
+  color: white;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin: 42px auto 0;
+  width: 266px;
+  height: 60px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 1000px;
+  border: 0px;
+}
+
+.lead__button:hover {
+  background: #fff;
+  color: #000;
+}

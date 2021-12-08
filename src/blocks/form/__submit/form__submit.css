@@ -1,0 +1,21 @@
+.form__submit {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(40px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 16px;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 18px 16px;
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.form__submit:hover {
+  background: #fff;
+  color: #000;
+}
