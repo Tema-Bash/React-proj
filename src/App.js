@@ -1,8 +1,8 @@
 import './App.css';
 
-import directionsWebIcon from './images/directions-web.svg'
-import directionsPcIcon from './images/directions-PC.svg'
-import directionsMobileIcon from './images/directions-mobile.svg'
+import WebIcon from './assets/directions-web.svg'
+import PcIcon from './assets/directions-PC.svg'
+import MobileIcon from './assets/directions-mobile.svg'
 
 import Navbar from './components/Navbar/Navbar';
 import Lead from './components/Lead/Lead';
@@ -15,14 +15,14 @@ const navbarLinks=[
 ]
 
 const directionsList=[
-  {imageSrc: "directionsWebIcon", title: "Web приложения"},
-  {imageSrc: "directionsPcIcon", title: "Десктоп приложения "},
-  {imageSrc: "directionsMobileIcon", title: "Мобильные приложения"},
+  {imageSrc: {WebIcon}, title: "Web приложения", alt: "Web приложения"},
+  {imageSrc: {PcIcon}, title: "Десктоп приложения ", alt: "Десктоп приложения"},
+  {imageSrc: {MobileIcon}, title: "Мобильные приложения", alt: "Мобильные приложения"},
 ]
 
 function App() {
   return (
-  <div className="App">
+  <div className="Aapp">
     <Navbar navbarLinks={navbarLinks}/>
     <Lead /*leadTitle={"Хайтекдиджит"} leadSubtitle={"Разработка программных продуктов с высокой степенью НИОКР"}*//>
     <Directions directionsList={directionsList}/>
