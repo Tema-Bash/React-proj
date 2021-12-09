@@ -3,13 +3,11 @@ import "./Navbar.css"
 
 
 const Navbar = ({navbarLinks}) => {
-
-  let handleScroll = function(){
-    let changeNav__button = document.querySelector(".navbar__button");
+  const handleScroll = () => {
+    const changeNav__button = document.querySelector(".navbar__button");
     window.scrollY >= 600 ? changeNav__button.classList.add("navbar__button_type_scrolled") : changeNav__button.classList.remove("navbar__button_type_scrolled")
   }
   
-
   useEffect(()=>{
     window.addEventListener("scroll", handleScroll)
     handleScroll()
@@ -23,13 +21,13 @@ const Navbar = ({navbarLinks}) => {
           if(item.button){
             return (
               <li className="navbar__item" key={item.index}>
-                <a className="navbar__link navbar__button" href={item.url}>{item.title}</a> {/*navbar__button */}
+                <a className="navbar__link navbar__button" href={item.url}>{item.title}</a> 
               </li>
               );
           }else{
             return (
               <li className="navbar__item" key={item.index}>
-                <a className="navbar__link" href={item.url}>{item.title}</a> {/*navbar__button */}
+                <a className="navbar__link" href={item.url}>{item.title}</a>
               </li>
               );
           }
