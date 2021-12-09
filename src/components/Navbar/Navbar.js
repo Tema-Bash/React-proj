@@ -4,8 +4,16 @@ import "./Navbar.css"
 
 const Navbar = ({navbarLinks}) => {
   const handleScroll = () => {
+    const changeNavbar = document.querySelector(".navbar")
     const changeNav__button = document.querySelector(".navbar__button");
-    window.scrollY >= 600 ? changeNav__button.classList.add("navbar__button_type_scrolled") : changeNav__button.classList.remove("navbar__button_type_scrolled")
+    /*использовать Intersection Observer API*/
+    if(window.scrollY >= 600 ){
+      changeNav__button.classList.add("navbar__button_type_scrolled")
+      changeNavbar.classList.add("navbar_type_scrolled")
+    }else {
+      changeNav__button.classList.remove("navbar__button_type_scrolled")
+      changeNavbar.classList.remove("navbar_type_scrolled")
+    }
   }
   
   useEffect(()=>{

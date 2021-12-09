@@ -13,7 +13,7 @@ import Form from './components/Form/Form';
 const navbarLinks=[
   {url: "#", title: "hitech@digit.com", button: false},
   {url: "#", title: "Обсудить проект", button: true},
-  {url: "#", title: "ru", button: false},
+  {url: "#", title: "EN", button: false},
 ]
 
 const directionsList=[
