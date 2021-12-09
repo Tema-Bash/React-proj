@@ -24,6 +24,13 @@
   opacity: 0.7;
 }
 
+.navbar__button_type_scrolled {
+  background-color: transparent;
+  border: 1px solid rgb(255, 255, 255);
+  padding: 15px;
+  border-radius: 25px;
+}
+
 .navbar__list {
   display: flex;
   justify-content: space-between;

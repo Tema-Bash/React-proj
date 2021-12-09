@@ -11,9 +11,9 @@ import About from './components/About/About';
 import Form from './components/Form/Form';
 
 const navbarLinks=[
-  {url: "#", title: "hitech@digit.com"},
-  {url: "#", title: "Обсудить проект"},
-  {url: "#", title: "ru"},
+  {url: "#", title: "hitech@digit.com", button: false},
+  {url: "#", title: "Обсудить проект", button: true},
+  {url: "#", title: "ru", button: false},
 ]
 
 const directionsList=[
