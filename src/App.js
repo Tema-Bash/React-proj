@@ -33,7 +33,7 @@ const aboutList=[
 
 function App() {
   return (
-  <div className="Aapp">
+  <div className="App">
     <Navbar navbarLinks={navbarLinks}/>
     <Lead leadTitle={"Хайтекдиджит"} leadSubtitle={"Разработка программных продуктов \nс высокой степенью НИОКР"}/>
     <Directions directionsList={directionsList}/>
