@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/React-proj/static/css/main.292ff378.chunk.css",
+    "main.js": "/React-proj/static/js/main.2a6fb6b6.chunk.js",
+    "main.js.map": "/React-proj/static/js/main.2a6fb6b6.chunk.js.map",
+    "runtime-main.js": "/React-proj/static/js/runtime-main.8e4dedd3.js",
+    "runtime-main.js.map": "/React-proj/static/js/runtime-main.8e4dedd3.js.map",
+    "static/js/2.b9ee7fea.chunk.js": "/React-proj/static/js/2.b9ee7fea.chunk.js",
+    "static/js/2.b9ee7fea.chunk.js.map": "/React-proj/static/js/2.b9ee7fea.chunk.js.map",
+    "index.html": "/React-proj/index.html",
+    "static/css/main.292ff378.chunk.css.map": "/React-proj/static/css/main.292ff378.chunk.css.map",
+    "static/js/2.b9ee7fea.chunk.js.LICENSE.txt": "/React-proj/static/js/2.b9ee7fea.chunk.js.LICENSE.txt",
+    "static/media/Arrow.aa4a0662.svg": "/React-proj/static/media/Arrow.aa4a0662.svg",
+    "static/media/background-bottom.d494f6f8.png": "/React-proj/static/media/background-bottom.d494f6f8.png",
+    "static/media/background-top-left.066549c7.png": "/React-proj/static/media/background-top-left.066549c7.png",
+    "static/media/background-top-right.44819710.png": "/React-proj/static/media/background-top-right.44819710.png",
+    "static/media/directions-PC.13221867.svg": "/React-proj/static/media/directions-PC.13221867.svg",
+    "static/media/directions-mobile.1f411eac.svg": "/React-proj/static/media/directions-mobile.1f411eac.svg",
+    "static/media/directions-web.4d7d715f.svg": "/React-proj/static/media/directions-web.4d7d715f.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8e4dedd3.js",
+    "static/js/2.b9ee7fea.chunk.js",
+    "static/css/main.292ff378.chunk.css",
+    "static/js/main.2a6fb6b6.chunk.js"
+  ]
+}

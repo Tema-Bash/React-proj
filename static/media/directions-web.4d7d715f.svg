@@ -1,0 +1,30 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M84 38V16C84 14.896 83.104 14 82 14H6C4.896 14 4 14.896 4 16V100C4 101.104 4.896 102 6 102H68" stroke="white" stroke-opacity="0.75" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M78 20H74V24H78V20Z" fill="white" fill-opacity="0.75"/>
+<path d="M70 20H66V24H70V20Z" fill="white" fill-opacity="0.75"/>
+<path d="M62 20H58V24H62V20Z" fill="white" fill-opacity="0.75"/>
+<path d="M110 44H106V48H110V44Z" fill="white" fill-opacity="0.75"/>
+<path d="M102 44H98V48H102V44Z" fill="white" fill-opacity="0.75"/>
+<path d="M94 44H90V48H94V44Z" fill="white" fill-opacity="0.75"/>
+<path d="M100 82H96V86H100V82Z" fill="white" fill-opacity="0.75"/>
+<path d="M110 82H106V86H110V82Z" fill="white" fill-opacity="0.75"/>
+<path d="M90 82H86V86H90V82Z" fill="white" fill-opacity="0.75"/>
+<path d="M80 82H76V86H80V82Z" fill="white" fill-opacity="0.75"/>
+<path d="M14 70H10V74H14V70Z" fill="white" fill-opacity="0.75"/>
+<path d="M62 70H58V74H62V70Z" fill="white" fill-opacity="0.75"/>
+<path d="M26 70H22V74H26V70Z" fill="white" fill-opacity="0.75"/>
+<path d="M38 70H34V74H38V70Z" fill="white" fill-opacity="0.75"/>
+<path d="M50 70H46V74H50V70Z" fill="white" fill-opacity="0.75"/>
+<path d="M4 30H84" stroke="white" stroke-opacity="0.75" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M62 44H12V60H62" stroke="white" stroke-opacity="0.75" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M10 84H62" stroke="white" stroke-opacity="0.75" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M10 92H50" stroke="white" stroke-opacity="0.75" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M116.004 116C117.108 116 118.004 115.104 118.004 114V40C118.004 38.896 117.108 38 116.004 38H70C68.896 38 68 38.896 68 40V114C68 115.104 68.896 116 70 116H116.004Z" stroke="white" stroke-opacity="0.75" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M110 76V58H76V74H104" stroke="white" stroke-opacity="0.75" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M74 94H112" stroke="white" stroke-opacity="0.75" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M74 102H100" stroke="white" stroke-opacity="0.75" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M102 10V2" stroke="white" stroke-opacity="0.75" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M102 26V18" stroke="white" stroke-opacity="0.75" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M106 14H112" stroke="white" stroke-opacity="0.75" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M98 14H92" stroke="white" stroke-opacity="0.75" stroke-width="2" stroke-miterlimit="10"/>
+</svg>
