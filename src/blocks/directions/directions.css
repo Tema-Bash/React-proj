@@ -1,9 +1,0 @@
-.directions {
-  color: white;
-  font-family: 'Rubik', sans-serif;
-  margin: 202px auto 0px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  max-width: 816px;
-}

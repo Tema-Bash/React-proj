@@ -4,7 +4,16 @@
   top: 0px;
   justify-content: space-between;
   font-family: 'Rubik', sans-serif;
-  /*padding: 16px 40px 16px;*/
+  transition: 0.5s;
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+}
+
+.navbar__container {
+  width: 100%;
+  max-width: 1440px;
+  display: flex;
+  margin: 0 auto;
 }
 
 .navbar__list {

@@ -1,7 +1,7 @@
 .lead {
   color: white;
   font-family: 'Rubik', sans-serif;
-  margin: 200px auto 0;
+  margin: 124px auto 0;
   max-width: 618px;
   display: flex;
   flex-direction: column;
@@ -30,6 +30,7 @@
 }
 
 .lead__button {
+  font-family: 'Rubik', sans-serif;
   color: white;
   font-size: 20px;
   font-style: normal;

@@ -1,11 +1,14 @@
 .form {
   color: white;
   font-family: 'Rubik', sans-serif;
-  margin: 140px auto 90px;
+  margin: 140px auto 0;
+  padding-bottom: 90px;
   max-width: 640px;
 }
 
 .form__input {
+  min-height: 60px;
+  font-family: 'Rubik', sans-serif;
   background: #1A1A1A;
   border: 1px solid #1A1A1A;
   border-radius: 16px;
@@ -51,14 +54,16 @@
 }
 
 .form__input_type_about {
-  margin-bottom: 16px;
+  margin-bottom: 32px;
+  resize: none;
 }
 
 .form__submit {
+  font-family: 'Rubik', sans-serif;
   background: rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(40px);
   border: 1px solid rgba(255, 255, 255, 0.15);
-  border-radius: 16px;
+  border-radius: 1000px;
   width: 100%;
   margin-bottom: 15px;
   padding: 18px 16px;
@@ -71,6 +76,21 @@
   text-align: center;
   transition: 0.3s;
 }
+
+.form__svg-icon{
+  height: 22;
+  fill: "#fff";
+  transform: translate(6px, 5px);
+}
+
+.form__icon {
+  transition: 0.3s;
+}
+
+.form__submit:hover .form__icon{
+  stroke: black; 
+}
+
 
 .form__submit:hover {
   background: #fff;

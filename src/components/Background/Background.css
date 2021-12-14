@@ -1,0 +1,4 @@
+.background__item {
+  position: absolute;
+  z-index: -1;
+}
